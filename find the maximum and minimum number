@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class main {
+    public static void main(String args[]) {
+        int a, b, c;
+        a = 5;
+        b = 3;
+        c = 2;
+        int maxnumber=Math.max(a,b);
+        int minnumber=Math.min(a,b);
+        System.out.println("a:" a);
+        System.out.println("maximum:" + maxnumber);
+        System.out.println("minimum:" + minnumber);
+    }
+}
