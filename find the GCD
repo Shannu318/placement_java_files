@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class main {
+    public static void main(String args[]) {
+        int a,b;
+        a=4;
+        b=8;
+        while(a!=b){
+            if(a>b){
+                a=a-b;
+            }else{
+                b=b-a;
+            }
+            System.out.println("gcd:"+a);
+        }
+    }
+}
